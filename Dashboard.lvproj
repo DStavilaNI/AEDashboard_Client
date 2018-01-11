@@ -29,6 +29,7 @@
 		</Item>
 		<Item Name="Server.lvlib" Type="Library" URL="../ServerLib/Server.lvlib"/>
 		<Item Name="Client.lvlib" Type="Library" URL="../ClientLib/Client.lvlib"/>
+<<<<<<< HEAD
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -70,6 +71,10 @@
 			</Item>
 			<Item Name="Init.vi" Type="VI" URL="../ServerLib/SubVIs/Init.vi"/>
 		</Item>
+=======
+		<Item Name="Launcher.lvlib" Type="Library" URL="../LauncherLib/Launcher.lvlib"/>
+		<Item Name="Dependencies" Type="Dependencies"/>
+>>>>>>> 7159059f91311e3b4a63c6b2b3b0087a4e9b7822
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
