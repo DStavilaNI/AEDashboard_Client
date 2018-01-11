@@ -11,7 +11,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="WebServices" Type="Folder"/>
+		<Item Name="WebServices" Type="Folder">
+			<Item Name="DashboardService" Type="Web Service">
+				<Property Name="ws.guid" Type="Str">{3621BD15-DD8F-40FF-8B06-38B84DB1D23D}</Property>
+				<Item Name="Web-Ressourcen" Type="HTTP WebResources Container">
+					<Item Name="GetSRs.vi" Type="VI" URL="../Webservice/Methods/GetSRs.vi">
+						<Property Name="ws.method" Type="Int">1</Property>
+						<Property Name="ws.type" Type="Int">1</Property>
+					</Item>
+					<Item Name="Heartbeat.vi" Type="VI" URL="../Webservice/Methods/Heartbeat.vi">
+						<Property Name="ws.method" Type="Int">1</Property>
+						<Property Name="ws.type" Type="Int">1</Property>
+					</Item>
+				</Item>
+				<Item Name="Zu startende VIs" Type="Startup VIs Container"/>
+			</Item>
+		</Item>
 		<Item Name="Server.lvlib" Type="Library" URL="../ServerLib/Server.lvlib"/>
 		<Item Name="Client.lvlib" Type="Library" URL="../ClientLib/Client.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -48,7 +63,12 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 			</Item>
+			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Init.vi" Type="VI" URL="../ServerLib/SubVIs/Init.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
