@@ -14,6 +14,7 @@
 		<Item Name="WebServices" Type="Folder"/>
 		<Item Name="Server.lvlib" Type="Library" URL="../ServerLib/Server.lvlib"/>
 		<Item Name="Client.lvlib" Type="Library" URL="../ClientLib/Client.lvlib"/>
+		<Item Name="Launcher.lvlib" Type="Library" URL="../LauncherLib/Launcher.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
