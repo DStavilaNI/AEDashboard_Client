@@ -47,6 +47,14 @@
 		<Item Name="DestroyAndUnregister.vi" Type="VI" URL="../StopEvent/DestroyAndUnregister.vi"/>
 		<Item Name="FireStop.vi" Type="VI" URL="../StopEvent/FireStop.vi"/>
 	</Item>
+	<Item Name="QueueTracking" Type="Folder">
+		<Item Name="Debug_FilterTable.vi" Type="VI" URL="../QueueTracking/Debug_FilterTable.vi"/>
+		<Item Name="Debug_MessageToString.vi" Type="VI" URL="../QueueTracking/Debug_MessageToString.vi"/>
+		<Item Name="Debug_QueueTracker.vi" Type="VI" URL="../QueueTracking/Debug_QueueTracker.vi"/>
+		<Item Name="Debug_TrackerData.ctl" Type="VI" URL="../QueueTracking/Debug_TrackerData.ctl"/>
+		<Item Name="DebugCommunication.vi" Type="VI" URL="../QueueTracking/DebugCommunication.vi"/>
+		<Item Name="Debug_FilterColumn.vi" Type="VI" URL="../QueueTracking/Debug_FilterColumn.vi"/>
+	</Item>
 	<Item Name="CreateCommunication.vi" Type="VI" URL="../CreateCommunication.vi"/>
 	<Item Name="ObtainMessageQueue.vi" Type="VI" URL="../ObtainMessageQueue.vi"/>
 	<Item Name="EnqueueMessage.vi" Type="VI" URL="../EnqueueMessage.vi"/>
