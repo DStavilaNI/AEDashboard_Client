@@ -12,22 +12,36 @@
 		<Item Name="ErrorLogger" Type="Folder">
 			<Item Name="ErrorLogger.lvlib" Type="Library" URL="../SubLibs/ErrorLogger/ErrorLogger.lvlib"/>
 		</Item>
+		<Item Name="Logging" Type="Folder">
+			<Item Name="Logging.lvlib" Type="Library" URL="../SubLibs/Logging/Logging.lvlib"/>
+		</Item>
 		<Item Name="Message Queue" Type="Folder">
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../SubLibs/Message Queue/Message Queue.lvlib"/>
 		</Item>
 		<Item Name="Oracle" Type="Folder">
 			<Item Name="Oracle.lvlib" Type="Library" URL="../SubLibs/Oracle/Oracle.lvlib"/>
 		</Item>
+		<Item Name="Timing" Type="Folder">
+			<Item Name="Timing.lvlib" Type="Library" URL="../SubLibs/Timing/Timing.lvlib"/>
+		</Item>
 		<Item Name="WebServiceCommunication" Type="Folder">
 			<Item Name="WebServiceCommunication.lvlib" Type="Library" URL="../SubLibs/WebServiceCommunication/WebServiceCommunication.lvlib"/>
 		</Item>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="ServerGlobals.vi" Type="VI" URL="../SubVIs/ServerGlobals.vi"/>
+		<Item Name="Debugging" Type="Folder">
+			<Item Name="GenerateIniFile.vi" Type="VI" URL="../SubVIs/Debugging/GenerateIniFile.vi"/>
+		</Item>
+		<Item Name="DataPath.vi" Type="VI" URL="../SubVIs/DataPath.vi"/>
+		<Item Name="Globals.vi" Type="VI" URL="../SubVIs/Globals.vi"/>
+		<Item Name="Init.vi" Type="VI" URL="../SubVIs/Init.vi"/>
+		<Item Name="ReadINI.vi" Type="VI" URL="../SubVIs/ReadINI.vi"/>
+		<Item Name="SendToAll.vi" Type="VI" URL="../SubVIs/SendToAll.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="ClientData.ctl" Type="VI" URL="../TypeDefs/ClientData.ctl"/>
 		<Item Name="ClientList.ctl" Type="VI" URL="../TypeDefs/ClientList.ctl"/>
+		<Item Name="ServerINI.ctl" Type="VI" URL="../TypeDefs/ServerINI.ctl"/>
 		<Item Name="SR Data.ctl" Type="VI" URL="../TypeDefs/SR Data.ctl"/>
 		<Item Name="SR List.ctl" Type="VI" URL="../TypeDefs/SR List.ctl"/>
 	</Item>
