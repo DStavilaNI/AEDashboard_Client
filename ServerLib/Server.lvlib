@@ -31,5 +31,6 @@
 		<Item Name="SR Data.ctl" Type="VI" URL="../TypeDefs/SR Data.ctl"/>
 		<Item Name="SR List.ctl" Type="VI" URL="../TypeDefs/SR List.ctl"/>
 	</Item>
+	<Item Name="Jan_AddedTheVI.vi" Type="VI" URL="../../Jan_AddedTheVI.vi"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
