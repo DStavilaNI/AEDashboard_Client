@@ -13,15 +13,53 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="WebServices" Type="Folder">
 			<Item Name="DashboardService" Type="Web Service">
+				<Property Name="Bld_buildSpecName" Type="Str"></Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
+				<Property Name="ws.disconnectInline" Type="Bool">true</Property>
+				<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
 				<Property Name="ws.guid" Type="Str">{3621BD15-DD8F-40FF-8B06-38B84DB1D23D}</Property>
+				<Property Name="ws.modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="ws.remoteDebugging" Type="Bool">false</Property>
+				<Property Name="ws.removeLibraryItems" Type="Bool">true</Property>
+				<Property Name="ws.removePolyVIs" Type="Bool">true</Property>
+				<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
+				<Property Name="ws.SSE2" Type="Bool">true</Property>
+				<Property Name="ws.static_permissions" Type="Str"></Property>
+				<Property Name="ws.version.build" Type="Int">2</Property>
+				<Property Name="ws.version.fix" Type="Int">0</Property>
+				<Property Name="ws.version.major" Type="Int">1</Property>
+				<Property Name="ws.version.minor" Type="Int">0</Property>
 				<Item Name="Web-Ressourcen" Type="HTTP WebResources Container">
 					<Item Name="GetSRs.vi" Type="VI" URL="../Webservice/Methods/GetSRs.vi">
+						<Property Name="ws.buffered" Type="Bool">true</Property>
+						<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+						<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+						<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
 						<Property Name="ws.method" Type="Int">1</Property>
+						<Property Name="ws.outputFormat" Type="Int">2</Property>
+						<Property Name="ws.outputType" Type="Int">0</Property>
+						<Property Name="ws.permissions" Type="Str"></Property>
+						<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
 						<Property Name="ws.type" Type="Int">1</Property>
+						<Property Name="ws.uri" Type="Str"></Property>
+						<Property Name="ws.useHeaders" Type="Bool">true</Property>
+						<Property Name="ws.useStandardURL" Type="Bool">true</Property>
 					</Item>
 					<Item Name="Heartbeat.vi" Type="VI" URL="../Webservice/Methods/Heartbeat.vi">
+						<Property Name="ws.buffered" Type="Bool">true</Property>
+						<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+						<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+						<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
 						<Property Name="ws.method" Type="Int">1</Property>
+						<Property Name="ws.outputFormat" Type="Int">2</Property>
+						<Property Name="ws.outputType" Type="Int">0</Property>
+						<Property Name="ws.permissions" Type="Str"></Property>
+						<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
 						<Property Name="ws.type" Type="Int">1</Property>
+						<Property Name="ws.uri" Type="Str"></Property>
+						<Property Name="ws.useHeaders" Type="Bool">true</Property>
+						<Property Name="ws.useStandardURL" Type="Bool">true</Property>
 					</Item>
 				</Item>
 				<Item Name="Zu startende VIs" Type="Startup VIs Container"/>
@@ -74,8 +112,60 @@
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SR Data.ctl" Type="VI" URL="../../../Temp/SR Data.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Server" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F6C57109-AADA-4C59-9110-138DAD9AD9DE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0359F5E0-5C4B-424F-811E-CD3B6DDA42B0}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_webService.count" Type="Int">1</Property>
+				<Property Name="App_webService[0].itemID" Type="Ref">/My Computer/WebServices/DashboardService</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B286CB23-98D3-4221-B90E-B90482679388}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Server</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Server/EXE</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AEAE533C-E67F-4B05-A6C4-EE11955A84A0}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DashboardServer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Server/EXE/DashboardServer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Server/EXE/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{26A3F729-12A1-4276-A394-B15A5890197A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Server.lvlib/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Server.lvlib/SubLibs/Oracle/Oracle.lvlib/OpenDB.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Server.lvlib/SubLibs/Oracle/Oracle.lvlib/GetSRdata.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Server</Property>
+				<Property Name="TgtF_internalName" Type="Str">Server</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Server</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{08094346-2AEB-494D-B2ED-7A36C7D19CA0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DashboardServer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
