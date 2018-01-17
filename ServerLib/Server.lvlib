@@ -9,6 +9,9 @@
 </Property>
 	<Item Name="Data" Type="Folder"/>
 	<Item Name="SubLibs" Type="Folder">
+		<Item Name="Dialogs" Type="Folder">
+			<Item Name="Dialogs.lvlib" Type="Library" URL="../SubLibs/Dialogs/Dialogs.lvlib"/>
+		</Item>
 		<Item Name="ErrorLogger" Type="Folder">
 			<Item Name="ErrorLogger.lvlib" Type="Library" URL="../SubLibs/ErrorLogger/ErrorLogger.lvlib"/>
 		</Item>
@@ -32,11 +35,16 @@
 		<Item Name="Debugging" Type="Folder">
 			<Item Name="GenerateIniFile.vi" Type="VI" URL="../SubVIs/Debugging/GenerateIniFile.vi"/>
 		</Item>
+		<Item Name="ConvertClients.vi" Type="VI" URL="../SubVIs/ConvertClients.vi"/>
+		<Item Name="ConvertSRs.vi" Type="VI" URL="../SubVIs/ConvertSRs.vi"/>
 		<Item Name="DataPath.vi" Type="VI" URL="../SubVIs/DataPath.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../SubVIs/Globals.vi"/>
+		<Item Name="INIdialog.vi" Type="VI" URL="../SubVIs/INIdialog.vi"/>
+		<Item Name="INIpath.vi" Type="VI" URL="../SubVIs/INIpath.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../SubVIs/Init.vi"/>
 		<Item Name="ReadINI.vi" Type="VI" URL="../SubVIs/ReadINI.vi"/>
 		<Item Name="SendToAll.vi" Type="VI" URL="../SubVIs/SendToAll.vi"/>
+		<Item Name="WriteINI.vi" Type="VI" URL="../SubVIs/WriteINI.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="ClientData.ctl" Type="VI" URL="../TypeDefs/ClientData.ctl"/>

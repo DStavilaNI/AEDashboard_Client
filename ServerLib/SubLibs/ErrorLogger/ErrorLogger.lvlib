@@ -12,5 +12,6 @@
 	<Item Name="ErrorHandler.vi" Type="VI" URL="../ErrorHandler.vi"/>
 	<Item Name="ErrorHandlerFGV.vi" Type="VI" URL="../ErrorHandlerFGV.vi"/>
 	<Item Name="ErrorLoop.vi" Type="VI" URL="../ErrorLoop.vi"/>
+	<Item Name="ErrorLoopData.ctl" Type="VI" URL="../ErrorLoopData.ctl"/>
 	<Item Name="FormatErrorToString.vi" Type="VI" URL="../FormatErrorToString.vi"/>
 </Library>

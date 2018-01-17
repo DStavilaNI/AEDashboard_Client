@@ -7,7 +7,7 @@
 </Boolean>
 <U32>
 <Name>ClientTimeout (s)</Name>
-<Val>30</Val>
+<Val>5</Val>
 </U32>
 <Path>
 <Name>LogPath</Name>
