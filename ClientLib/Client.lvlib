@@ -11,6 +11,12 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="UI_Test.vi" Type="VI" URL="../SubVIs/UI_Test.vi"/>
 	</Item>
-	<Item Name="TypeDefs" Type="Folder"/>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="SR Data.ctl" Type="VI" URL="../TypeDefs/SR Data.ctl"/>
+		<Item Name="SR List.ctl" Type="VI" URL="../TypeDefs/SR List.ctl"/>
+	</Item>
+	<Item Name="ConvertSRs.vi" Type="VI" URL="../ConvertSRs.vi"/>
 	<Item Name="DashboardClientUI.vi" Type="VI" URL="../DashboardClientUI.vi"/>
+	<Item Name="DemoClient.vi" Type="VI" URL="../DemoClient.vi"/>
+	<Item Name="GenerateMethodURL.vi" Type="VI" URL="../GenerateMethodURL.vi"/>
 </Library>

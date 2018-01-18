@@ -32,13 +32,13 @@
 				<Property Name="ws.version.minor" Type="Int">0</Property>
 				<Item Name="Web-Ressourcen" Type="HTTP WebResources Container">
 					<Item Name="GetSRs.vi" Type="VI" URL="../Webservice/Methods/GetSRs.vi">
-						<Property Name="ws.buffered" Type="Bool">true</Property>
+						<Property Name="ws.buffered" Type="Bool">false</Property>
 						<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
 						<Property Name="ws.keepInMemory" Type="Bool">true</Property>
 						<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
 						<Property Name="ws.method" Type="Int">1</Property>
 						<Property Name="ws.outputFormat" Type="Int">2</Property>
-						<Property Name="ws.outputType" Type="Int">0</Property>
+						<Property Name="ws.outputType" Type="Int">1</Property>
 						<Property Name="ws.permissions" Type="Str"></Property>
 						<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
 						<Property Name="ws.type" Type="Int">1</Property>
