@@ -14,6 +14,8 @@
 	<Item Name="Fetch.vi" Type="VI" URL="../Fetch.vi"/>
 	<Item Name="GetSRdata.vi" Type="VI" URL="../GetSRdata.vi"/>
 	<Item Name="OpenDB.vi" Type="VI" URL="../OpenDB.vi"/>
+	<Item Name="OracleBusy.vi" Type="VI" URL="../OracleBusy.vi"/>
+	<Item Name="OracleBusyDialog.vi" Type="VI" URL="../OracleBusyDialog.vi"/>
 	<Item Name="OracleData.ctl" Type="VI" URL="../OracleData.ctl"/>
 	<Item Name="OracleLoop.vi" Type="VI" URL="../OracleLoop.vi"/>
 	<Item Name="OracleLoopData.ctl" Type="VI" URL="../OracleLoopData.ctl"/>

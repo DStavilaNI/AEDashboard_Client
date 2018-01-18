@@ -1,10 +1,6 @@
 <Cluster>
 <Name>ServerINI</Name>
-<NumElts>5</NumElts>
-<Boolean>
-<Name>TrackQueues?</Name>
-<Val>1</Val>
-</Boolean>
+<NumElts>4</NumElts>
 <U32>
 <Name>ClientTimeout (s)</Name>
 <Val>30</Val>
