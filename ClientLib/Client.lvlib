@@ -8,6 +8,11 @@
 
 </Property>
 	<Item Name="Data" Type="Folder"/>
+	<Item Name="DemoCode" Type="Folder">
+		<Item Name="ConvertSRs.vi" Type="VI" URL="../DemoCode/ConvertSRs.vi"/>
+		<Item Name="DemoClient.vi" Type="VI" URL="../DemoCode/DemoClient.vi"/>
+		<Item Name="GenerateMethodURL.vi" Type="VI" URL="../DemoCode/GenerateMethodURL.vi"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="UI_Test.vi" Type="VI" URL="../SubVIs/UI_Test.vi"/>
 	</Item>
@@ -15,8 +20,6 @@
 		<Item Name="SR Data.ctl" Type="VI" URL="../TypeDefs/SR Data.ctl"/>
 		<Item Name="SR List.ctl" Type="VI" URL="../TypeDefs/SR List.ctl"/>
 	</Item>
-	<Item Name="ConvertSRs.vi" Type="VI" URL="../ConvertSRs.vi"/>
-	<Item Name="DashboardClientUI.vi" Type="VI" URL="../DashboardClientUI.vi"/>
-	<Item Name="DemoClient.vi" Type="VI" URL="../DemoClient.vi"/>
-	<Item Name="GenerateMethodURL.vi" Type="VI" URL="../GenerateMethodURL.vi"/>
+	<Item Name="CommsFrameWork.lvlib" Type="Library" URL="../CommunicationsFrameWork/CommsFrameWork.lvlib"/>
+	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
