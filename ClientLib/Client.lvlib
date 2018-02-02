@@ -9,8 +9,17 @@
 
 </Property>
 	<Item Name="Data" Type="Folder"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Copy SR Num to Clipboard.vi" Type="VI" URL="../SubVIs/Copy SR Num to Clipboard.vi"/>
+		<Item Name="Open Screenpop.vi" Type="VI" URL="../SubVIs/Open Screenpop.vi"/>
+		<Item Name="Prepare Data for ParserSorter.vi" Type="VI" URL="../SubVIs/Prepare Data for ParserSorter.vi"/>
+		<Item Name="Parse-Sort-Split.vi" Type="VI" URL="../SubVIs/Parse-Sort-Split.vi"/>
+	</Item>
 	<Item Name="CommsFrameWork.lvlib" Type="Library" URL="../CommunicationsFrameWork/CommsFrameWork.lvlib"/>
 	<Item Name="CommsServer.lvlib" Type="Library" URL="../ServerCommunications/CommsServer.lvlib"/>
 	<Item Name="UI_API.lvlib" Type="Library" URL="../UI_API/UI_API.lvlib"/>
+	<Item Name="ClientErrorHandler.lvlib" Type="Library" URL="../ClientErrorHandler/ClientErrorHandler.lvlib"/>
+	<Item Name="ClientLogger.lvlib" Type="Library" URL="../ClientLogger/ClientLogger.lvlib"/>
+	<Item Name="ParserSorter.lvlib" Type="Library" URL="../ParserSorter/ParserSorter.lvlib"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
