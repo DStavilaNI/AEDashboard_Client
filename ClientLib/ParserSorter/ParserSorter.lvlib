@@ -16,6 +16,7 @@
 	<Item Name="SortEngineer.vi" Type="VI" URL="../SortEngineer.vi"/>
 	<Item Name="SortPriority.vi" Type="VI" URL="../SortPriority.vi"/>
 	<Item Name="SR Data.ctl" Type="VI" URL="../SR Data.ctl"/>
+	<Item Name="SR Fields.ctl" Type="VI" URL="../../UI_API/SR Fields.ctl"/>
 	<Item Name="SR Level.ctl" Type="VI" URL="../SR Level.ctl"/>
 	<Item Name="SR List.ctl" Type="VI" URL="../SR List.ctl"/>
 	<Item Name="SR Status.ctl" Type="VI" URL="../SR Status.ctl"/>

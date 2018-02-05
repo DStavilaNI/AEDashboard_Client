@@ -79,7 +79,6 @@
 		</Item>
 		<Item Name="Server.lvlib" Type="Library" URL="../ServerLib/Server.lvlib"/>
 		<Item Name="Client.lvlib" Type="Library" URL="../ClientLib/Client.lvlib"/>
-		<Item Name="SR Fields.ctl" Type="VI" URL="../ClientLib/UI_API/SR Fields.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
