@@ -17,4 +17,5 @@
 	<Item Name="ConnectionQuality.vi" Type="VI" URL="../ConnectionQuality.vi"/>
 	<Item Name="ConvertSRs.vi" Type="VI" URL="../ConvertSRs.vi"/>
 	<Item Name="GenerateMethodURL.vi" Type="VI" URL="../GenerateMethodURL.vi"/>
+	<Item Name="RefreshTimer.vi" Type="VI" URL="../RefreshTimer.vi"/>
 </Library>

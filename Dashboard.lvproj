@@ -138,6 +138,8 @@
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -194,6 +196,46 @@
 				<Property Name="TgtF_productName" Type="Str">Server</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{08094346-2AEB-494D-B2ED-7A36C7D19CA0}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DashboardServer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Client" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BA0DF9BD-AA13-4FFC-8C10-3B3D8389326B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{170F75A9-7A5F-4834-A558-D44F9D8F407B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B3B0340C-60CF-46B6-8F21-094FDD62C226}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Client</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Client</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{56727819-9117-41AD-AC1B-1FEAE45A6A39}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">AEDashboardClient.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Client/AEDashboardClient.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Client/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{99B27BA4-FC84-42D5-9DAE-2D35ACBC1120}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Client.lvlib/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI Hungary</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Client</Property>
+				<Property Name="TgtF_internalName" Type="Str">Client</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 NI Hungary</Property>
+				<Property Name="TgtF_productName" Type="Str">Client</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{45D83EC9-55B7-46EB-AC8E-61AD6EFB1AE8}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AEDashboardClient.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

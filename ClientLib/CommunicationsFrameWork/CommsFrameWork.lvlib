@@ -29,6 +29,7 @@
 		<Item Name="IniFileFunctions" Type="Folder">
 			<Item Name="ReadIni.vi" Type="VI" URL="../SubVIs/ReadIni.vi"/>
 		</Item>
+		<Item Name="GetWinUserName.vi" Type="VI" URL="../SubVIs/GetWinUserName.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="CommReferences.ctl" Type="VI" URL="../TypeDefs/CommReferences.ctl"/>

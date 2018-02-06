@@ -11,7 +11,10 @@
 </Property>
 	<Item Name="InitAE-Groups.vi" Type="VI" URL="../InitAE-Groups.vi"/>
 	<Item Name="PriorityColoring.vi" Type="VI" URL="../PriorityColoring.vi"/>
+	<Item Name="RestoreUISettings.vi" Type="VI" URL="../RestoreUISettings.vi"/>
+	<Item Name="SaveUISettings.vi" Type="VI" URL="../SaveUISettings.vi"/>
 	<Item Name="SRListToTable.vi" Type="VI" URL="../SRListToTable.vi"/>
+	<Item Name="UIReferences.ctl" Type="VI" URL="../UIReferences.ctl"/>
 	<Item Name="UpdateTree(MultipleLines).vi" Type="VI" URL="../UpdateTree(MultipleLines).vi"/>
 	<Item Name="UpdateTree(SingleLine).vi" Type="VI" URL="../UpdateTree(SingleLine).vi"/>
 </Library>
