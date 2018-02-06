@@ -1,0 +1,36 @@
+<Cluster>
+<Name>ServerINI</Name>
+<NumElts>4</NumElts>
+<U32>
+<Name>ClientTimeout (s)</Name>
+<Val>30</Val>
+</U32>
+<Path>
+<Name>LogPath</Name>
+<Val>C:\Users\jgoebel\Documents\GitHub\AEDashboard\ServerLib\Data\ServerLog.tdms</Val>
+</Path>
+<Array>
+<Name>ErrorsToIgnore</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>specific error code to clear (0: all)</Name>
+<Val></Val>
+</I32>
+</Array>
+<Cluster>
+<Name>OracleData</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>DBname</Name>
+<Val>OracleDB</Val>
+</String>
+<String>
+<Name>User</Name>
+<Val>NIBIZ_AE</Val>
+</String>
+<String>
+<Name>Password</Name>
+<Val>p4nCak3</Val>
+</String>
+</Cluster>
+</Cluster>
