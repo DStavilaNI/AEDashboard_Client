@@ -17,17 +17,10 @@ appweb: 2: Loading native module C:\Program Files (x86)\National Instruments\Sha
 appweb: 3: In maWSRuntimeInit()
 
 appweb: 2: Started HTTP  service on "*:8002"
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50024 to 127.0.0.1:8002 
 
 >>>>>>>>>> Receive content packet 0, len 118 (conn 0) >>>>>>>>>>
 GET /DashboardService/GetSRs HTTP/1.1
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59805 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 0, len 143 (conn 0) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Host: 127.0.0.1:8002
 User-Agent: National Instruments LabVIEW
 Accept: */*
@@ -39,36 +32,20 @@ appweb: 3: In moduleMatch()
 appweb: 3: In moduleMatch()
 
 appweb: 3: Select route "default" target "run"
-<<<<<<< HEAD
 appweb: 3: Select handler: "WSRuntime" for "/DashboardService/GetSRs"
 appweb: 3: Select output filter: "chunkFilter"
 
 >>>>>>>>>> Transmit content packet 0, len 227 (conn 0) >>>>>>>>>>
-=======
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 0, len 221 (conn 0) >>>>>>>>>>
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 HTTP/1.1 200 OK
 Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Transfer-Encoding: chunked
 Date: Wed, 24 Jan 2018 12:21:12 GMT
 Keep-Alive: timeout=60, max=199
 <<<<<<<<<< End Transmit packet, conn 0
 appweb: 3: ### Incoming connection from 127.0.0.1:50026 to 127.0.0.1:8002 
-=======
-Date: Wed, 24 Jan 2018 14:30:25 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 0
-appweb: 3: ### Incoming connection from 127.0.0.1:59807 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 1, len 143 (conn 1) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -92,20 +69,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:21:16 GMT
-=======
-Date: Wed, 24 Jan 2018 14:30:35 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 1
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50028 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59808 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 2, len 118 (conn 2) >>>>>>>>>>
 GET /DashboardService/GetSRs HTTP/1.1
@@ -123,30 +92,17 @@ appweb: 3: Select route "default" target "run"
 appweb: 3: Select handler: "WSRuntime" for "/DashboardService/GetSRs"
 appweb: 3: Select output filter: "chunkFilter"
 
-<<<<<<< HEAD
 >>>>>>>>>> Transmit content packet 2, len 227 (conn 2) >>>>>>>>>>
-=======
->>>>>>>>>> Transmit content packet 2, len 222 (conn 2) >>>>>>>>>>
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 HTTP/1.1 200 OK
 Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Transfer-Encoding: chunked
 Date: Wed, 24 Jan 2018 12:21:19 GMT
 Keep-Alive: timeout=60, max=199
 <<<<<<<<<< End Transmit packet, conn 2
 appweb: 3: ### Incoming connection from 127.0.0.1:50039 to 127.0.0.1:8002 
-=======
-Date: Wed, 24 Jan 2018 14:30:36 GMT
-Content-Length: 791
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 2
-appweb: 3: ### Incoming connection from 127.0.0.1:59837 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 3, len 143 (conn 3) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -170,20 +126,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:22:00 GMT
-=======
-Date: Wed, 24 Jan 2018 14:30:45 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 3
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50040 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59852 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 4, len 143 (conn 4) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -207,20 +155,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:22:10 GMT
-=======
-Date: Wed, 24 Jan 2018 14:30:55 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 4
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50041 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59885 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 5, len 143 (conn 5) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -244,20 +184,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:22:20 GMT
-=======
-Date: Wed, 24 Jan 2018 14:31:05 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 5
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50043 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59900 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 6, len 143 (conn 6) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -281,20 +213,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:22:30 GMT
-=======
-Date: Wed, 24 Jan 2018 14:31:15 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 6
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50044 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59901 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 7, len 143 (conn 7) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -318,20 +242,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:22:40 GMT
-=======
-Date: Wed, 24 Jan 2018 14:31:25 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 7
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50045 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59912 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 8, len 143 (conn 8) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -355,20 +271,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:22:50 GMT
-=======
-Date: Wed, 24 Jan 2018 14:31:35 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 8
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50046 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59927 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 9, len 143 (conn 9) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -392,20 +300,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:23:00 GMT
-=======
-Date: Wed, 24 Jan 2018 14:31:45 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 9
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50048 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:59928 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 10, len 143 (conn 10) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -429,20 +329,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:23:10 GMT
-=======
-Date: Wed, 24 Jan 2018 14:31:55 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 10
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50049 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57700 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 11, len 143 (conn 11) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -466,20 +358,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:23:20 GMT
-=======
-Date: Wed, 24 Jan 2018 14:32:05 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 11
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50051 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57701 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 12, len 143 (conn 12) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -503,20 +387,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:23:30 GMT
-=======
-Date: Wed, 24 Jan 2018 14:32:15 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 12
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50053 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57703 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 13, len 143 (conn 13) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -540,20 +416,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:23:40 GMT
-=======
-Date: Wed, 24 Jan 2018 14:32:25 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 13
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50054 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57706 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 14, len 143 (conn 14) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -577,20 +445,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:23:50 GMT
-=======
-Date: Wed, 24 Jan 2018 14:32:35 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 14
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50061 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57707 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 15, len 143 (conn 15) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -614,20 +474,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:24:00 GMT
-=======
-Date: Wed, 24 Jan 2018 14:32:45 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 15
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50062 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57708 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 16, len 143 (conn 16) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -651,16 +503,11 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:24:10 GMT
-=======
-Date: Wed, 24 Jan 2018 14:32:55 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 16
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50068 to 127.0.0.1:8002 
 
 >>>>>>>>>> Receive content packet 17, len 381 (conn 17) >>>>>>>>>>
@@ -672,15 +519,6 @@ Accept-Language: de,en-US;q=0.7,en;q=0.3
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
 Upgrade-Insecure-Requests: 1
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57709 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 17, len 143 (conn 17) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 <<<<<<<<<< End Receive packet, conn 17
 appweb: 3: Use endpoint: :8002
@@ -698,16 +536,11 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:24:15 GMT
-=======
-Date: Wed, 24 Jan 2018 14:33:05 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 17
-<<<<<<< HEAD
 
 >>>>>>>>>> Receive content packet 18, len 314 (conn 17) >>>>>>>>>>
 GET /favicon.ico HTTP/1.1
@@ -746,38 +579,6 @@ Keep-Alive: timeout=60, max=198
 <<<<<<<<<< End Transmit packet, conn 17
 appweb: 3: ### Incoming connection from 127.0.0.1:50069 to 127.0.0.1:8002 
 appweb: 3: ### Incoming connection from 127.0.0.1:50070 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57710 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 18, len 143 (conn 18) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 18
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 18, len 221 (conn 18) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:33:15 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 18
-appweb: 3: ### Incoming connection from 127.0.0.1:57711 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 19, len 143 (conn 19) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -801,20 +602,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:24:20 GMT
-=======
-Date: Wed, 24 Jan 2018 14:33:25 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 19
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50071 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57714 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 20, len 143 (conn 20) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -838,20 +631,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:24:30 GMT
-=======
-Date: Wed, 24 Jan 2018 14:33:35 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 20
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50072 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57716 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 21, len 143 (conn 21) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -875,20 +660,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:24:40 GMT
-=======
-Date: Wed, 24 Jan 2018 14:33:45 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 21
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50073 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57717 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 22, len 143 (conn 22) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -912,20 +689,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:24:50 GMT
-=======
-Date: Wed, 24 Jan 2018 14:33:55 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 22
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50074 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57719 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 23, len 143 (conn 23) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -949,20 +718,12 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:25:00 GMT
-=======
-Date: Wed, 24 Jan 2018 14:34:05 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 23
-<<<<<<< HEAD
 appweb: 3: ### Incoming connection from 127.0.0.1:50076 to 127.0.0.1:8002 
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57720 to 127.0.0.1:8002 
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 
 >>>>>>>>>> Receive content packet 24, len 143 (conn 24) >>>>>>>>>>
 GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
@@ -986,453 +747,11 @@ Connection: Keep-Alive
 Server: Embedthis-http
 Content-Type: text/xml; charset=utf-8
 Cache-Control: no-cache
-<<<<<<< HEAD
 Date: Wed, 24 Jan 2018 12:25:10 GMT
-=======
-Date: Wed, 24 Jan 2018 14:34:15 GMT
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 Content-Length: 21
 Keep-Alive: timeout=60, max=199
 
 <<<<<<<<<< End Transmit packet, conn 24
-<<<<<<< HEAD
-=======
-appweb: 3: ### Incoming connection from 127.0.0.1:57721 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 25, len 143 (conn 25) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 25
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 25, len 221 (conn 25) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:34:25 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 25
-appweb: 3: ### Incoming connection from 127.0.0.1:57722 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 26, len 143 (conn 26) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 26
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 26, len 221 (conn 26) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:34:35 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 26
-appweb: 3: ### Incoming connection from 127.0.0.1:57725 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 27, len 143 (conn 27) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 27
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 27, len 221 (conn 27) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:34:45 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 27
-appweb: 3: ### Incoming connection from 127.0.0.1:57726 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 28, len 143 (conn 28) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 28
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 28, len 221 (conn 28) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:34:56 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 28
-appweb: 3: ### Incoming connection from 127.0.0.1:57727 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 29, len 143 (conn 29) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 29
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 29, len 221 (conn 29) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:35:06 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 29
-appweb: 3: ### Incoming connection from 127.0.0.1:57728 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 30, len 143 (conn 30) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 30
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 30, len 221 (conn 30) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:35:16 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 30
-appweb: 3: ### Incoming connection from 127.0.0.1:57731 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 31, len 143 (conn 31) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 31
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 31, len 221 (conn 31) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:35:26 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 31
-appweb: 3: ### Incoming connection from 127.0.0.1:57733 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 32, len 143 (conn 32) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 32
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 32, len 221 (conn 32) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:35:36 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 32
-appweb: 3: ### Incoming connection from 127.0.0.1:57735 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 33, len 143 (conn 33) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 33
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 33, len 221 (conn 33) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:35:46 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 33
-appweb: 3: ### Incoming connection from 127.0.0.1:57737 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 34, len 143 (conn 34) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 34
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 34, len 221 (conn 34) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:35:56 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 34
-appweb: 3: ### Incoming connection from 127.0.0.1:57739 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 35, len 143 (conn 35) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 35
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 35, len 221 (conn 35) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:36:06 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 35
-appweb: 3: ### Incoming connection from 127.0.0.1:57740 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 36, len 143 (conn 36) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 36
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 36, len 221 (conn 36) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:36:16 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 36
-appweb: 3: ### Incoming connection from 127.0.0.1:57741 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 37, len 143 (conn 37) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 37
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 37, len 221 (conn 37) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:36:26 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 37
-appweb: 3: ### Incoming connection from 127.0.0.1:57743 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 38, len 143 (conn 38) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 38
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 38, len 221 (conn 38) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:36:36 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 38
-appweb: 3: ### Incoming connection from 127.0.0.1:57744 to 127.0.0.1:8002 
-
->>>>>>>>>> Receive content packet 39, len 143 (conn 39) >>>>>>>>>>
-GET /DashboardService/Heartbeat?ClientName=TestClient HTTP/1.1
-Host: 127.0.0.1:8002
-User-Agent: National Instruments LabVIEW
-Accept: */*
-
-<<<<<<<<<< End Receive packet, conn 39
-appweb: 3: Use endpoint: :8002
-appweb: 3: In moduleMatch()
-
-appweb: 3: In moduleMatch()
-
-appweb: 3: Select route "default" target "run"
-appweb: 3: Select handler: "WSRuntime" for "/DashboardService/Heartbeat"
-appweb: 3: Select output filter: "chunkFilter"
-
->>>>>>>>>> Transmit content packet 39, len 221 (conn 39) >>>>>>>>>>
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Server: Embedthis-http
-Content-Type: text/xml; charset=utf-8
-Cache-Control: no-cache
-Date: Wed, 24 Jan 2018 14:36:46 GMT
-Content-Length: 21
-Keep-Alive: timeout=60, max=199
-
-<<<<<<<<<< End Transmit packet, conn 39
->>>>>>> parent of c4ff346... Merge branch 'master' of https://github.com/DenisStavila/AEDashboard
 appweb: 3: Normal exit.
 appweb: 3: In moduleFinalize()
 
