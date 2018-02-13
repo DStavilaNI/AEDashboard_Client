@@ -10,20 +10,16 @@
 </Property>
 	<Item Name="Data" Type="Folder"/>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Copy SR Num to Clipboard.vi" Type="VI" URL="../SubVIs/Copy SR Num to Clipboard.vi"/>
-		<Item Name="Open Screenpop.vi" Type="VI" URL="../SubVIs/Open Screenpop.vi"/>
-		<Item Name="Prepare Data for ParserSorter.vi" Type="VI" URL="../SubVIs/Prepare Data for ParserSorter.vi"/>
-		<Item Name="Parse-Sort-Split.vi" Type="VI" URL="../SubVIs/Parse-Sort-Split.vi"/>
+		<Item Name="CopySRNumToClipboard.vi" Type="VI" URL="../SubVIs/CopySRNumToClipboard.vi"/>
+		<Item Name="OpenScreenpop.vi" Type="VI" URL="../SubVIs/OpenScreenpop.vi"/>
+		<Item Name="PrepareDataForParserSorter.vi" Type="VI" URL="../SubVIs/PrepareDataForParserSorter.vi"/>
+		<Item Name="ParseSortSplit.vi" Type="VI" URL="../SubVIs/ParseSortSplit.vi"/>
 		<Item Name="CurrentVIPath(VIorEXE).vi" Type="VI" URL="../SubVIs/CurrentVIPath(VIorEXE).vi"/>
 		<Item Name="GenerateINIPath.vi" Type="VI" URL="../SubVIs/GenerateINIPath.vi"/>
 	</Item>
 	<Item Name="Menus" Type="Folder">
-		<Item Name="Assigned Shortcut Menu.rtm" Type="Document" URL="../Menus/Assigned Shortcut Menu.rtm"/>
-		<Item Name="Unassigned Shortcut Menu.rtm" Type="Document" URL="../Menus/Unassigned Shortcut Menu.rtm"/>
-	</Item>
-	<Item Name="Experiments" Type="Folder"/>
-	<Item Name="Archive" Type="Folder">
-		<Item Name="Main_2018-02-09.vi" Type="VI" URL="../Archive/Main_2018-02-09.vi"/>
+		<Item Name="AssignedShortcutMenu.rtm" Type="Document" URL="../Menus/AssignedShortcutMenu.rtm"/>
+		<Item Name="UnassignedShortcutMenu.rtm" Type="Document" URL="../Menus/UnassignedShortcutMenu.rtm"/>
 	</Item>
 	<Item Name="CommsFrameWork.lvlib" Type="Library" URL="../CommunicationsFrameWork/CommsFrameWork.lvlib"/>
 	<Item Name="CommsServer.lvlib" Type="Library" URL="../ServerCommunications/CommsServer.lvlib"/>

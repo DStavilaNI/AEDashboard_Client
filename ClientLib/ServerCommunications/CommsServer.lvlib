@@ -11,9 +11,9 @@
 </Property>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="ClientConfiguration.ctl" Type="VI" URL="../TypeDefs/ClientConfiguration.ctl"/>
-		<Item Name="Connection Status.ctl" Type="VI" URL="../TypeDefs/Connection Status.ctl"/>
-		<Item Name="SR Data.ctl" Type="VI" URL="../TypeDefs/SR Data.ctl"/>
-		<Item Name="SR List.ctl" Type="VI" URL="../TypeDefs/SR List.ctl"/>
+		<Item Name="ConnectionStatus.ctl" Type="VI" URL="../TypeDefs/ConnectionStatus.ctl"/>
+		<Item Name="SRData.ctl" Type="VI" URL="../TypeDefs/SRData.ctl"/>
+		<Item Name="SRList.ctl" Type="VI" URL="../TypeDefs/SRList.ctl"/>
 	</Item>
 	<Item Name="ConnectionQuality.vi" Type="VI" URL="../ConnectionQuality.vi"/>
 	<Item Name="ConvertSRs.vi" Type="VI" URL="../ConvertSRs.vi"/>

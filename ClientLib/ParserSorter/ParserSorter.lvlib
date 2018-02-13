@@ -6,7 +6,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="AE Group.ctl" Type="VI" URL="../AE Group.ctl"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="AEGroup.ctl" Type="VI" URL="../TypeDefs/AEGroup.ctl"/>
+		<Item Name="SRLevel.ctl" Type="VI" URL="../TypeDefs/SRLevel.ctl"/>
+		<Item Name="SRList.ctl" Type="VI" URL="../TypeDefs/SRList.ctl"/>
+		<Item Name="SRStatus.ctl" Type="VI" URL="../TypeDefs/SRStatus.ctl"/>
+		<Item Name="SRType.ctl" Type="VI" URL="../TypeDefs/SRType.ctl"/>
+		<Item Name="SRFields.ctl" Type="VI" URL="../TypeDefs/SRFields.ctl"/>
+		<Item Name="SRData.ctl" Type="VI" URL="../TypeDefs/SRData.ctl"/>
+	</Item>
 	<Item Name="AsignedUnasigned.vi" Type="VI" URL="../AsignedUnasigned.vi"/>
 	<Item Name="Scan Service Level.vi" Type="VI" URL="../Scan Service Level.vi"/>
 	<Item Name="ScanAEGroup.vi" Type="VI" URL="../ScanAEGroup.vi"/>
@@ -15,11 +24,5 @@
 	<Item Name="ScanType.vi" Type="VI" URL="../ScanType.vi"/>
 	<Item Name="SortEngineer.vi" Type="VI" URL="../SortEngineer.vi"/>
 	<Item Name="SortPriority.vi" Type="VI" URL="../SortPriority.vi"/>
-	<Item Name="SR Data.ctl" Type="VI" URL="../SR Data.ctl"/>
-	<Item Name="SR Fields.ctl" Type="VI" URL="../../UI_API/SR Fields.ctl"/>
-	<Item Name="SR Level.ctl" Type="VI" URL="../SR Level.ctl"/>
-	<Item Name="SR List.ctl" Type="VI" URL="../SR List.ctl"/>
-	<Item Name="SR Status.ctl" Type="VI" URL="../SR Status.ctl"/>
-	<Item Name="SR Type.ctl" Type="VI" URL="../SR Type.ctl"/>
 	<Item Name="Usage Example.vi" Type="VI" URL="../Usage Example.vi"/>
 </Library>
