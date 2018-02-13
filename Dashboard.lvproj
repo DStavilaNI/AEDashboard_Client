@@ -383,7 +383,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/AEDashboardClient/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{16ED4BB4-9CC2-4DFE-8B64-7FC5A0BBDD61}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D87850ED-0AB7-4E97-BBD6-78814C32C014}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Client.lvlib/Main.vi</Property>
@@ -392,7 +392,15 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Client.lvlib/ClientConfiguration.ini</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Client.lvlib/Menus/AssignedShortcutMenu.rtm</Property>
+				<Property Name="Source[3].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Client.lvlib/Menus/UnassignedShortcutMenu.rtm</Property>
+				<Property Name="Source[4].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
