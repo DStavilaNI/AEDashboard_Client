@@ -28,5 +28,4 @@
 	<Item Name="ParserSorter.lvlib" Type="Library" URL="../ParserSorter/ParserSorter.lvlib"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="ClientGlobals.vi" Type="VI" URL="../ClientGlobals.vi"/>
-	<Item Name="ClientConfiguration.ini" Type="Document" URL="../../ClientConfiguration.ini"/>
 </Library>

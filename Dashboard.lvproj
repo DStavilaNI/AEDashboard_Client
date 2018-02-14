@@ -31,6 +31,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Client.lvlib" Type="Library" URL="../ClientLib/Client.lvlib"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
+		<Item Name="ClientConfiguration.ini" Type="Document" URL="../ClientLib/ClientConfiguration.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -383,22 +384,22 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/AEDashboardClient/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D87850ED-0AB7-4E97-BBD6-78814C32C014}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{220BA8C1-8A92-401A-9AD9-9D0C9C61B7B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Client.lvlib/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Client.lvlib/ClientConfiguration.ini</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Client.lvlib/Menus/AssignedShortcutMenu.rtm</Property>
+				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Client.lvlib/Menus/AssignedShortcutMenu.rtm</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Client.lvlib/Menus/UnassignedShortcutMenu.rtm</Property>
 				<Property Name="Source[3].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Client.lvlib/Menus/UnassignedShortcutMenu.rtm</Property>
-				<Property Name="Source[4].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/ClientConfiguration.ini</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
