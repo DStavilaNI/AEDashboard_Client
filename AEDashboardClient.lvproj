@@ -30,8 +30,9 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Client.lvlib" Type="Library" URL="../ClientLib/Client.lvlib"/>
-		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 		<Item Name="ClientConfiguration.ini" Type="Document" URL="../ClientLib/ClientConfiguration.ini"/>
+		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
+		<Item Name="Pre-Build Action.vi" Type="VI" URL="../Pre-Build Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -375,6 +376,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/AEDashboardClient</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{173C86E9-9733-4D31-8999-737FC241B8A3}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -384,7 +386,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/AEDashboardClient/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{220BA8C1-8A92-401A-9AD9-9D0C9C61B7B4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00C4BEC2-FE48-4743-B76D-4A01AB4BAFFE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Client.lvlib/Main.vi</Property>
