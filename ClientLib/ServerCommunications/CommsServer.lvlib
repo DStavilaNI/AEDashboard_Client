@@ -12,6 +12,7 @@
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="ClientConfiguration.ctl" Type="VI" URL="../TypeDefs/ClientConfiguration.ctl"/>
 		<Item Name="ConnectionStatus.ctl" Type="VI" URL="../TypeDefs/ConnectionStatus.ctl"/>
+		<Item Name="GetSRsResponse.ctl" Type="VI" URL="../TypeDefs/GetSRsResponse.ctl"/>
 		<Item Name="SRData.ctl" Type="VI" URL="../TypeDefs/SRData.ctl"/>
 		<Item Name="SRList.ctl" Type="VI" URL="../TypeDefs/SRList.ctl"/>
 	</Item>
