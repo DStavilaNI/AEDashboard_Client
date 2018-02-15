@@ -24,6 +24,7 @@
 	<Item Name="StartPanelUpdates.vi" Type="VI" URL="../StartPanelUpdates.vi"/>
 	<Item Name="StopPanelUpdates.vi" Type="VI" URL="../StopPanelUpdates.vi"/>
 	<Item Name="ToggleTab.vi" Type="VI" URL="../ToggleTab.vi"/>
+	<Item Name="UpdateSRCountColors.vi" Type="VI" URL="../UpdateSRCountColors.vi"/>
 	<Item Name="UpdateTree(MultipleLines).vi" Type="VI" URL="../UpdateTree(MultipleLines).vi"/>
 	<Item Name="UpdateTree(SingleLine).vi" Type="VI" URL="../UpdateTree(SingleLine).vi"/>
 </Library>
