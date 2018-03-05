@@ -20,6 +20,9 @@
 		<Item Name="AssignedShortcutMenu.rtm" Type="Document" URL="../Menus/AssignedShortcutMenu.rtm"/>
 		<Item Name="UnassignedShortcutMenu.rtm" Type="Document" URL="../Menus/UnassignedShortcutMenu.rtm"/>
 	</Item>
+	<Item Name="Prototypes" Type="Folder">
+		<Item Name="PrototypeUI.vi" Type="VI" URL="../Prototypes/PrototypeUI.vi"/>
+	</Item>
 	<Item Name="CommsFrameWork.lvlib" Type="Library" URL="../CommunicationsFrameWork/CommsFrameWork.lvlib"/>
 	<Item Name="CommsServer.lvlib" Type="Library" URL="../ServerCommunications/CommsServer.lvlib"/>
 	<Item Name="UI_API.lvlib" Type="Library" URL="../UI_API/UI_API.lvlib"/>
