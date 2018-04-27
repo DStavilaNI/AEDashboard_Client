@@ -33,6 +33,7 @@
 		<Item Name="ClientConfiguration.ini" Type="Document" URL="../ClientLib/ClientConfiguration.ini"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 		<Item Name="Pre-Build Action.vi" Type="VI" URL="../Pre-Build Action.vi"/>
+		<Item Name="ni_logor_APU_icon.ico" Type="Document" URL="../IcoFiles/ni_logor_APU_icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -421,7 +422,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8E4D6AA4-9FAF-42AE-A013-ECE28A7498BD}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Dashboard.exe</Property>
@@ -432,7 +433,8 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F6EFAFCD-E95A-4517-B8B3-C758BF06F091}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ni_logor_APU_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E447DDE4-A948-4067-8A2F-1730E5E3A202}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Client.lvlib/Main.vi</Property>
